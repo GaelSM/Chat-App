@@ -24,6 +24,7 @@
 }
 
 body{
+  user-select: none;
   position: relative;
   font-size: 16px;
   font-family: 'Rubik', sans-serif;
@@ -257,7 +258,7 @@ h1{
   position: absolute;
   width: 50%;
   height: 55%;
-  background-color: var(--Light-Violet);
+  background: linear-gradient(to right, var(--Light-Violet), var(--Light-Magenta));
   top: 0;
   left: 0;
   z-index: -1;
